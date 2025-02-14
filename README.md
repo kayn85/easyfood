@@ -10,3 +10,5 @@ Jag har byggt sidan med:
 4. aso
 5. glightbox
 6. swiper
+
+DEMO: https://easifood.netlify.app/
