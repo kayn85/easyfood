@@ -12,3 +12,5 @@ Jag har byggt sidan med:
 6. swiper
 
 DEMO: https://easifood.netlify.app/
+
+<img src="https://github.com/kayn85/kayn85/blob/main/easyfood-screenshot.png">
