@@ -17,18 +17,18 @@
 
 :root
 {
-  --nav-color: #7f7f90;
-  --nav-hover-color: #FF8F00;
+  --nav-color: white;
+  --nav-hover-color: #bb6a01;
   --nav-mobile-background-color: #fff;
   --nav-dropdown-background-color: #fff;
   --nav-dropdown-color: #7f7f90;
-  --nav-dropdown-hover-color: #FF8F00
+  --nav-dropdown-hover-color: #FF8F00;
 }
 
 .light-background
 {
   --background-color: #f2f2f2;
-  --surface-color: #fff
+  --surface-color: #fff;
 }
 
 .dark-background
@@ -37,7 +37,7 @@
   --default-color: #fff;
   --heading-color: #fff;
   --surface-color: #37373f;
-  --contrast-color: #fff
+  --contrast-color: #fff;
 }
 
 :root
@@ -236,7 +236,7 @@ h6
   .navmenu .active,
   .navmenu .active:focus
   {
-    color: color-mix(in srgb, var(--nav-color) 80%, black 50%)
+    color: #FF8F00;
   }
 
   .navmenu .dropdown ul
@@ -1180,4 +1180,3 @@ li
   max-height: 25px;
 
 }
-
