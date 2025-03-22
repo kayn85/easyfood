@@ -154,3 +154,25 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentYear = new Date().getFullYear()
   yearSpan.textContent = currentYear
 })
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  if (!localStorage.getItem('cookiesAccepted')) {
+
+    setTimeout(function () {
+      document.getElementById('cookie-banner').style.display = 'block';
+    }, 1000);
+  }
+
+
+  document.getElementById('accept-cookies').addEventListener('click', function () {
+    localStorage.setItem('cookiesAccepted', 'true');
+    document.getElementById('cookie-banner').style.display = 'none';
+  });
+
+
+  document.getElementById('accept-cookies-modal').addEventListener('click', function () {
+    localStorage.setItem('cookiesAccepted', 'true');
+    document.getElementById('cookie-banner').style.display = 'none';
+  });
+});
